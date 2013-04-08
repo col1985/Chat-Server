@@ -1,0 +1,153 @@
+@import url('lib/reset.css');
+/* CloudKillers Chat Server - Main CSS */
+
+body {
+	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	color: #000;
+	}
+
+/* Structure styling */
+
+header, nav, section, footer  {
+	display: block;
+}
+
+.wrapper {
+	width: 1000px;
+	height: auto;
+	margin: 0px auto;
+}
+
+header {
+	height: 100px;
+	padding: 0px;
+}
+
+.header-row  {
+	height: 50px;
+	width: 100%;
+	background: transparent url(../img/ck-logo.png) no-repeat;
+	background-position: 10px 6px;	
+}
+
+.login-form {
+	height: 100%;
+	width: 400px;
+	padding: 10px 20px;
+}
+
+nav {
+	height: 50px;
+	background: transparent url(../img/cloudkillers.png) no-repeat;
+	background-position: left;
+	background-color: #edefef;
+	border: 1px inset #333;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+}
+
+nav li a:link { color: #000; }
+nav li a:visited { color: #fff; }
+
+nav li a:hover {
+	/* [disabled]text-shadow: 2px 2px 1px #000; */
+	color: #fff;
+	background: transparent url() repeat;
+}
+
+section {
+	padding: 0px;
+	margin: 10px 0px 10px 0px;
+	width: 998px;
+	border: 1px inset #999;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+.border {
+	border: 1px inset #999;
+	-moz-border-radius: 20px;
+	-webkit-border-radius: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+input[type=text] {
+	font-size:13px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	padding: 2px 5px;
+	-moz-box-shadow:    inset 0 0 7px #999;
+	-webkit-box-shadow: inset 0 0 7px #999;
+	box-shadow:         inset 0 0 7px #999;
+}
+
+button {
+	height: 24px
+	margin: 0px;
+	padding: 6px
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#toolbar {
+	display: none;
+}
+
+footer {
+	height: 25px;
+	text-align: right;
+}
+
+/* float & clear */
+
+.right { float: right; }
+
+.left { float: left; }
+	
+.clear { clear: both; }
+
+/* Links Styling */
+
+a img { border: none; }
+
+a:link { color: #42413C; text-decoration: underline; }
+
+a:visited { color: #6E6C64; text-decoration: underline; }
+
+a:hover, a:active, a:focus { text-decoration: none; }
+
+/* General styling */
+
+.grad-top {
+	background: #edefef;
+	background: -webkit-linear-gradient(top, #edefef, #fff);
+	background: -ms-linear-gradient(top, #edefef, #fff);
+	background: -moz-linear-gradient(top, #edefef, #fff);
+	background: -o-linear-gradient(top, #edefef, #fff);
+	}
+
+.grad-bottom {
+	background: #edefef;
+	background: -webkit-linear-gradient(bottom, #edefef, #fff);
+	background: -ms-linear-gradient(bottom, #edefef, #fff);
+	background: -moz-linear-gradient(bottom, #edefef, #fff);
+	background: -o-linear-gradient(bottom, #edefef, #fff);
+	}
+	
+.grad-chat {
+	background:#d4e5f5;
+	background: -webkit-linear-gradient(bottom, #d4e5f5, #fff);
+	background: -ms-linear-gradient(bottom, #d4e5f5, #fff);
+	background: -moz-linear-gradient(bottom, #d4e5f5, #fff);
+	background: -o-linear-gradient(bottom, #d4e5f5, #fff);
+}
+/*  */	
